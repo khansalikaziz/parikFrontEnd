@@ -11,7 +11,7 @@ export const Banner = () => {
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
-  const toRotate = [ "Web Developer", "Web Designer", "Anroid Developer" ];
+  const toRotate = [ "Web Developer", "Web Designer", "Android Developer" ];
   const period = 2000;
 
   useEffect(() => {
@@ -56,7 +56,7 @@ export const Banner = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Welcome to my Portfolio</span>
-                <h1>{`Hi! I'm Salik`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Web Designer", "Android Developer" ]'><span className="wrap">{text}</span></span></h1>
+                <h1>{`Hi! I'm Salik`}<br/> <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Web Designer", "Android Developer" ]'><span className="wrap">{text}</span></span></h1>
                   <p>Highly motivated and collaborative problem solver with experience in Full Stack development and Android development. Excels in tackling
 complex challenges and enjoys working within a team environment. Skilled in handling responsibilities and delivering results in a timely
 manner. A dedicated professional with a passion for technology and a strong work ethic.
