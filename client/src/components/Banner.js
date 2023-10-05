@@ -56,12 +56,12 @@ export const Banner = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Welcome to my Portfolio</span>
-                <h1>{`Hi! I'm Salik`}<br/> <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Web Designer", "Android Developer" ]'><span className="wrap">{text}</span></span></h1>
+                <h1>{`Hi! I'm Parikshit Verma`}<br/> <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Web Designer", "Android Developer" ]'><span className="wrap">{text}</span></span></h1>
                   <p>Highly motivated and collaborative problem solver with experience in Full Stack development and Android development. Excels in tackling
 complex challenges and enjoys working within a team environment. Skilled in handling responsibilities and delivering results in a timely
 manner. A dedicated professional with a passion for technology and a strong work ethic.
 </p>
-                <a style={{textDecoration:'none'}} href="https://www.linkedin.com/in/khansalikaziz/">  <button style={{textDecoration:'none'}} onclick="" >Let’s Connect <ArrowRightCircle size={25} /></button></a>
+                <a style={{textDecoration:'none'}} href="https://www.linkedin.com/in/parikshit-verma-7124a324b/">  <button style={{textDecoration:'none'}} onclick="" >Let’s Connect <ArrowRightCircle size={25} /></button></a>
               </div>}
             </TrackVisibility>
           </Col>
