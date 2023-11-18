@@ -1,11 +1,12 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import projImg1 from "../assets/img/proj1.jpg";
-import projImg2 from "../assets/img/proj2.png";
-import projImg3 from "../assets/img/proj3.png";
-import projImg4 from "../assets/img/proj4.png";
-import projImg5 from "../assets/img/proj5.png";
-import projImg6 from "../assets/img/proj6.png";
+import projImg1 from "../assets/img/net.jpg";
+import projImg2 from "../assets/img/music.png";
+import projImg3 from "../assets/img/netflixpic.png";
+import projImg4 from "../assets/img/NETLAN.png";
+import projImg5 from "../assets/img/HLO.png";
+import projImg5 from "../assets/img/AI.png";
+
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -14,41 +15,42 @@ export const Projects = () => {
 
   const projects = [
     {
-      title: "No Broker",
-      description: "Design & Development",
+      title: "Netflix Clone",
+      description: "FakeNetflix",
       imgUrl: projImg1,
-      link:"https://github.com/khansalikaziz/NoBroker"
+      link:"https://github.com/parikshitverma07/Netflixclone"
     },
     {
-      title: "Vison Chat",
-      description: "Chatting Application",
+      title: "Music Player",
+      description: "Listening Music",
       imgUrl: projImg2,
-      link:"https://github.com/khansalikaziz/Vision_Chat-Chat-application-using-React-and-Firebase-"
+      link:"https://github.com/TechboyVerma/Music-Player--Master"
     },
     {
-      title: "Amazon Clone",
-      description: "Ecommerce Web Application",
+      title: "Netflix Clone Apk-UI",
+      description: "Netflix Ui",
       imgUrl: projImg3,
-      link:"https://github.com/khansalikaziz/Amazon-clone-using-React-and-Firebase"
+      link:"https://github.com/TechboyVerma/Netflix-clone-apk"
     },
     {
-      title: "VisonMile",
-      description: "E-learning Platform",
+      title: "Radom App Ui",
+      description: "Ui",
       imgUrl: projImg4,
-      link:"https://github.com/khansalikaziz/VisionMile"
+      link:"https://github.com/TechboyVerma/example_viewpager2"
     },
     {
-      title: "Eye Detecttion",
-      description: "Video Player",
+      title: "Personal Portfolio",
+      description: "Portfolio",
       imgUrl: projImg5,
-      link:"https://github.com/khansalikaziz/Eye-Detection-Video-player-Java--Using-Android-Studio"
+      link:"https://github.com/TechboyVerma/Personal-Portfolio"
     },
     {
-      title: "TextUtils",
-      description: "Web Application",
+      title: "Voice Assistant",
+      description: "Voice AI ASSISTANT ",
       imgUrl: projImg6,
-      link:"https://github.com/khansalikaziz/TextUtils"
+      link:"https://github.com/TechboyVerma/My-projects"
     },
+    
   ];
 
   return (
